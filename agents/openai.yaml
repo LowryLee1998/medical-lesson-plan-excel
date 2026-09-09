@@ -1,0 +1,8 @@
+interface:
+  display_name: "教案生成"
+  short_description: "根据授课计划生成适合邮件合并的医药课程教案 Excel"
+  default_prompt: "使用 $medical-lesson-plan-excel，根据我上传的授课计划生成全部教案。"
+
+policy:
+  allow_implicit_invocation: true
+
